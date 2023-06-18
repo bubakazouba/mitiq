@@ -13,4 +13,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from mitiq.qse.qse_utils import get_projector
+from mitiq.qse.qse import execute_with_qse, mitigate_executor, qse_decorator
+from mitiq.qse.qse_utils import (
+    get_projector,
+    get_expectation_value_for_observable,
+)
